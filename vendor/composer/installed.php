@@ -1,0 +1,65 @@
+<?php return array(
+    'root' => array(
+        'name' => 'yipresser/content-republish',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '2839e2c7a52977ce7653a1375e9e73bf9103cd4d',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'typisttech/imposter' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '0282df368b1862594f7ad09e50dbb264dbb146ec',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../typisttech/imposter',
+            'aliases' => array(
+                0 => '0.6.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'typisttech/imposter-plugin' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '11d16a7af76dc08e47b05c3baca93036404b4f93',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../typisttech/imposter-plugin',
+            'aliases' => array(
+                0 => '0.6.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'woocommerce/action-scheduler' => array(
+            'pretty_version' => '3.8.1',
+            'version' => '3.8.1.0',
+            'reference' => 'e331b534d7de10402d7545a0de50177b874c0779',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../woocommerce/action-scheduler',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yipresser/content-republish' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '2839e2c7a52977ce7653a1375e9e73bf9103cd4d',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yipresser/wp-settings-api-helper' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '7a4b43b13fdfa876d4dc65d0847bc6ebb65846f9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yipresser/wp-settings-api-helper',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+    ),
+);

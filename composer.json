@@ -1,0 +1,36 @@
+{
+    "name": "yipresser/content-republish",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "classmap": ["includes"]
+    },
+    "authors": [
+        {
+            "name": "Yipresser",
+            "email": "help@yipresser.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "allow-plugins": {
+            "typisttech/imposter-plugin": true
+        }
+    },
+    "require": {
+        "yipresser/wp-settings-api-helper":"@dev",
+        "woocommerce/action-scheduler": "^3.7",
+        "typisttech/imposter-plugin": "^0.6.1"
+    },
+    "extra": {
+        "imposter": {
+            "namespace": "Yipresser\\ContentRepublish\\Vendor",
+            "excludes": [
+                "woocommerce/action-scheduler"
+            ]
+        }
+    }
+}

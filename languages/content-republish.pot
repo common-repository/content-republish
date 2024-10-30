@@ -1,0 +1,279 @@
+# Copyright (C) 2024 YiPresser
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Republish 1.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/content-republish\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-04T02:56:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: content-republish\n"
+
+#. Plugin Name of the plugin
+#: content-republish.php
+#: includes/admin/admin.php:69
+#: includes/admin/metaboxes.php:56
+msgid "Content Republish"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: content-republish.php
+msgid "https://contentimizer.com/content-republish"
+msgstr ""
+
+#. Description of the plugin
+#: content-republish.php
+msgid "Keep your live posts fresh without having to unpublish it. Clone your posts, make changes to it and republish seamlessly."
+msgstr ""
+
+#. Author of the plugin
+#: content-republish.php
+msgid "YiPresser"
+msgstr ""
+
+#. Author URI of the plugin
+#: content-republish.php
+msgid "https://www.contentimizer.com"
+msgstr ""
+
+#: includes/admin/admin.php:56
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin.php:80
+msgid "Content Republish Settings"
+msgstr ""
+
+#: includes/admin/admin.php:90
+msgid "Upgrade to Content Republish Pro"
+msgstr ""
+
+#: includes/admin/admin.php:95
+msgid "Enhance the power of Content Republish with the Pro version:"
+msgstr ""
+
+#: includes/admin/admin.php:97
+msgid "Supports custom post types"
+msgstr ""
+
+#: includes/admin/admin.php:98
+msgid "Send notifications for republished posts"
+msgstr ""
+
+#: includes/admin/admin.php:99
+msgid "Custom settings for individual post"
+msgstr ""
+
+#: includes/admin/admin.php:100
+msgid "Remove Content Republish ads and branding"
+msgstr ""
+
+#: includes/admin/admin.php:101
+msgid "Fast, professional support"
+msgstr ""
+
+#: includes/admin/admin.php:103
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/admin/admin.php:110
+msgid "Need Content Republish Support?"
+msgstr ""
+
+#. translators: %s is replaced by the external link to WordPress.org plugins directory.
+#: includes/admin/admin.php:116
+msgid "If you need help or have a new feature request,  <a href=\"%s\">let us know</a>"
+msgstr ""
+
+#: includes/admin/metaboxes.php:78
+msgid "Clone this post"
+msgstr ""
+
+#. translators: %d: Number of articles.
+#: includes/admin/metaboxes.php:82
+msgid "You have %d clone for this post."
+msgstr ""
+
+#: includes/admin/metaboxes.php:85
+msgid "Post ID"
+msgstr ""
+
+#: includes/admin/metaboxes.php:86
+msgid "Post Title"
+msgstr ""
+
+#: includes/admin/metaboxes.php:103
+msgid "Convert this post to a republish post. Once converted, you can use this post to overwrite an existing post."
+msgstr ""
+
+#: includes/admin/metaboxes.php:104
+msgid "Enter the post_id of the published post to republish:"
+msgstr ""
+
+#: includes/admin/metaboxes.php:104
+msgid "Convert to Republish post"
+msgstr ""
+
+#: includes/admin/metaboxes.php:118
+#: includes/admin/metaboxes.php:147
+msgid "Nonce check failed."
+msgstr ""
+
+#. translators: %s: edit post link.
+#: includes/admin/metaboxes.php:127
+msgid "Post cloned successfully. <a href=\"%s\">Click here to edit</a>."
+msgstr ""
+
+#: includes/admin/metaboxes.php:130
+msgid "Error: Cloning failed."
+msgstr ""
+
+#: includes/admin/metaboxes.php:134
+msgid "Error: Invalid post id or post status (Only published post can be cloned)."
+msgstr ""
+
+#: includes/admin/metaboxes.php:153
+msgid "Error: Existing post is not a published post. Republish conversion failed."
+msgstr ""
+
+#: includes/admin/metaboxes.php:161
+msgid "Success: Reload the page to see the changes."
+msgstr ""
+
+#: includes/admin/metaboxes.php:164
+#: includes/admin/metaboxes.php:169
+msgid "Error: Invalid post id."
+msgstr ""
+
+#: includes/admin/poststatus.php:32
+msgctxt "post"
+msgid "Republish"
+msgstr ""
+
+#: includes/admin/poststatus.php:37
+msgctxt "post"
+msgid "Schedule Republish"
+msgstr ""
+
+#. translators: %s: Number of articles.
+#: includes/admin/poststatus.php:47
+msgid "Schedule Republish <span class=\"count\">(%s)</span>"
+msgid_plural "Schedule Republish <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/poststatus.php:51
+msgctxt "post"
+msgid "Pending Delete"
+msgstr ""
+
+#: includes/admin/poststatus.php:102
+msgid "Republish"
+msgstr ""
+
+#: includes/admin/poststatus.php:133
+msgid "Schedule Republish"
+msgstr ""
+
+#. translators: %1$s and %2$s are replaced by the post title, permalink and edit link.
+#: includes/admin/republish-post.php:53
+msgid "This is a cloned copy of %1$s ( %2$s | %3$s ). Publishing this post will overwrite the original post with this content."
+msgstr ""
+
+#: includes/admin/republish-post.php:55
+msgid "view original"
+msgstr ""
+
+#: includes/admin/republish-post.php:56
+msgid "edit original"
+msgstr ""
+
+#. translators: %s is replaced by the last update date.
+#: includes/admin/republish-post.php:66
+msgid "This post was last updated on %s."
+msgstr ""
+
+#. translators: %s is replaced by the post title.
+#: includes/admin/republish-post.php:114
+msgid "This is a draft copy of %s. Publishing this post will overwrite the original post with this content."
+msgstr ""
+
+#. translators: %s is replaced by the last update date.
+#: includes/admin/republish-post.php:122
+msgid "This post was last updated on %s"
+msgstr ""
+
+#: includes/admin/rowaction.php:69
+msgid "Clone this post for update and republication"
+msgstr ""
+
+#: includes/admin/rowaction.php:70
+msgid "Clone for Republish"
+msgstr ""
+
+#: includes/admin/rowaction.php:104
+msgid "Post cloning failed"
+msgstr ""
+
+#: includes/admin/rowaction.php:109
+msgid "Invalid Post ID"
+msgstr ""
+
+#. translators: %s is replaced by the post title.
+#: includes/admin/rowaction.php:130
+msgid "Clone of %s"
+msgstr ""
+
+#: includes/admin/settings.php:51
+msgid "Post Types to enable Republish"
+msgstr ""
+
+#: includes/admin/settings.php:59
+msgid "Who can clone posts?"
+msgstr ""
+
+#: includes/admin/settings.php:68
+msgid "Overwrite the original author when republish"
+msgstr ""
+
+#: includes/admin/settings.php:75
+msgid "Overwrite the taxonomies (categories, tags, etc.) when republish"
+msgstr ""
+
+#: includes/admin/settings.php:82
+msgid "Overwrite the custom fields when republish"
+msgstr ""
+
+#: includes/admin/settings.php:89
+msgid "Update the post date when republish"
+msgstr ""
+
+#: includes/admin/settings.php:96
+msgid "After republish:"
+msgstr ""
+
+#: includes/admin/settings.php:100
+msgid "Move the cloned post to Trash"
+msgstr ""
+
+#: includes/admin/settings.php:101
+msgid "Delete the cloned post permanently"
+msgstr ""
+
+#. translators: %s is replaced by the external link to PRO purchase site.
+#: includes/admin/settings.php:141
+msgid "* Upgrade to <a target=\"_blank\" href=\"%s\">the PRO version</a> to enable custom post types."
+msgstr ""
+
+#: includes/admin/assets/js/src/block-editor.js:10
+msgid "View original"
+msgstr ""
+
+#: includes/admin/assets/js/src/block-editor.js:16
+msgid "Edit original"
+msgstr ""
